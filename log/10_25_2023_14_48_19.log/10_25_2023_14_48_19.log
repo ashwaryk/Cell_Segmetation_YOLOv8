@@ -1,0 +1,16 @@
+[2023-10-25 14:48:20,051] root - INFO - Entered the start_data_ingestion method of TrainPipeline class
+[2023-10-25 14:48:20,051] root - INFO - Getting the data from url
+[2023-10-25 14:48:20,052] root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[2023-10-25 14:48:20,052] root - INFO - Downloading data from https://drive.google.com/file/d/17vDLJrk4iYtysocirKNCDuDIOAsX0-17/view?usp=sharing into file artifacts\data_ingestion\data.zip
+[2023-10-25 14:48:24,725] root - INFO - Downloaded data from https://drive.google.com/file/d/17vDLJrk4iYtysocirKNCDuDIOAsX0-17/view?usp=sharing into file artifacts\data_ingestion\data.zip
+[2023-10-25 14:48:24,774] root - INFO - Extracting zip file: artifacts\data_ingestion\data.zip into dir: artifacts\data_ingestion\feature_store
+[2023-10-25 14:48:24,774] root - INFO - Exited initate_data_ingestion method of Data_Ingestion class
+[2023-10-25 14:48:24,774] root - INFO - Data ingestion artifact: DataIngestionArtifact(data_zip_file_path='artifacts\\data_ingestion\\data.zip', feature_store_path='artifacts\\data_ingestion\\feature_store')
+[2023-10-25 14:48:24,774] root - INFO - Got the data from url
+[2023-10-25 14:48:24,774] root - INFO - Exited the start_data_ingestion method of TrainPipeline class
+[2023-10-25 14:48:24,774] root - INFO - Entered the start_data_validation method of TrainPipeline class
+[2023-10-25 14:48:24,774] root - INFO - Entered initate_data_validation method of DataValidation class
+[2023-10-25 14:48:24,778] root - INFO - Exited initiate_data_validation method of DataValidation class
+[2023-10-25 14:48:24,778] root - INFO - Data validation artifact: DataValidationArtifact(validation_status=True)
+[2023-10-25 14:48:24,780] root - INFO - Performed the data validation operation
+[2023-10-25 14:48:24,780] root - INFO - Exited the start_data_validation method of TrainPipeline class
